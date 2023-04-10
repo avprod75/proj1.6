@@ -10,7 +10,7 @@ int main()
   cin >> y;
   cout << " Enter number:";
   cin >> z;
-  cout << "Here  is the sum:" << x + y + z << endl;
-  cout << "=" << x * y * z << endl;
+  cout << "Here  is the sum: " << x + y + z << endl;
+  cout << "Here is the multiplication: " << x * y * z << endl;
   return 0;
 }
