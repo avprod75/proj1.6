@@ -2,15 +2,9 @@
 using namespace std;
 int main()
 {
-  int x, y, z;
-  cout << "culculate" << endl;
-  cout << " Enter number :";
+  int x;
+  cout << "enter 3 digits number" << endl;
   cin >> x;
-  cout << " Enter number:";
-  cin >> y;
-  cout << " Enter number:";
-  cin >> z;
-  cout << "Here  is the sum: " << x + y + z << endl;
-  cout << "Here is the multiplication: " << x * y * z << endl;
+  cout << x/100<<" "<<(x/10)%10<<" "<<x%10;
   return 0;
 }
